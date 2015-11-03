@@ -1,0 +1,737 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 38;
+	objects = {
+		014CEA3F0018CDD111CA2923 = {
+			buildRules = (
+			);
+			buildSettings = {
+				COPY_PHASE_STRIP = YES;
+				DEBUGGING_SYMBOLS = YES;
+				OPTIMIZATION_CFLAGS = "-O0";
+				OTHER_CFLAGS = "\U0001-DDEBUG";
+			};
+			isa = PBXBuildStyle;
+			name = Development;
+		};
+		014CEA400018CDD111CA2923 = {
+			buildRules = (
+			);
+			buildSettings = {
+				COPY_PHASE_STRIP = YES;
+			};
+			isa = PBXBuildStyle;
+			name = Deployment;
+		};
+//010
+//011
+//012
+//013
+//014
+//080
+//081
+//082
+//083
+//084
+		089C1669FE841209C02AAC07 = {
+			buildStyles = (
+				014CEA3F0018CDD111CA2923,
+				014CEA400018CDD111CA2923,
+			);
+			hasScannedForEncodings = 1;
+			isa = PBXProject;
+			mainGroup = 089C166AFE841209C02AAC07;
+			projectDirPath = "";
+			targets = (
+				F538D97001517C9A01CA2136,
+			);
+		};
+		089C166AFE841209C02AAC07 = {
+			children = (
+				F509F4D40177994001CA2136,
+				089C1671FE841209C02AAC07,
+				19C28FB6FE9D52B211CA2CBB,
+			);
+			isa = PBXGroup;
+			name = MIDIDrivers;
+			refType = 4;
+		};
+		089C1671FE841209C02AAC07 = {
+			children = (
+				0AA1909FFE8422F4C02AAC07,
+				F5706D20014B0B17015B338A,
+				F5706D23014B0BC6015B338A,
+				F55F18B701554564010C93F4,
+			);
+			isa = PBXGroup;
+			name = "External Frameworks and Libraries";
+			refType = 4;
+		};
+//080
+//081
+//082
+//083
+//084
+//0A0
+//0A1
+//0A2
+//0A3
+//0A4
+		0AA1909FFE8422F4C02AAC07 = {
+			isa = PBXFrameworkReference;
+			name = CoreFoundation.framework;
+			path = /System/Library/Frameworks/CoreFoundation.framework;
+			refType = 0;
+		};
+//0A0
+//0A1
+//0A2
+//0A3
+//0A4
+//190
+//191
+//192
+//193
+//194
+		19C28FB6FE9D52B211CA2CBB = {
+			children = (
+				F538D96F01517C9A01CA2136,
+			);
+			isa = PBXGroup;
+			name = Products;
+			refType = 4;
+		};
+//190
+//191
+//192
+//193
+//194
+//F40
+//F41
+//F42
+//F43
+//F44
+		F490F11DC5B03DDB00A007D0 = {
+			children = (
+				F490F210C5B03DDB00A007D0,
+				F490F211C5B03DDB00A007D0,
+				F490F214C5B03DDB00A007D0,
+				F490F215C5B03DDB00A007D0,
+			);
+			isa = PBXGroup;
+			name = PublicUtility;
+			path = ../../PublicUtility;
+			refType = 4;
+		};
+		F490F210C5B03DDB00A007D0 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			path = CAHostTimeBase.cpp;
+			refType = 4;
+		};
+		F490F211C5B03DDB00A007D0 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			path = CAHostTimeBase.h;
+			refType = 4;
+		};
+		F490F212C5B03DDB00A007D0 = {
+			fileRef = F490F210C5B03DDB00A007D0;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		F490F213C5B03DDB00A007D0 = {
+			fileRef = F490F211C5B03DDB00A007D0;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		F490F214C5B03DDB00A007D0 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			path = CAMutex.cpp;
+			refType = 4;
+		};
+		F490F215C5B03DDB00A007D0 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			path = CAMutex.h;
+			refType = 4;
+		};
+		F490F216C5B03DDB00A007D0 = {
+			fileRef = F490F214C5B03DDB00A007D0;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		F490F217C5B03DDB00A007D0 = {
+			fileRef = F490F215C5B03DDB00A007D0;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+//F40
+//F41
+//F42
+//F43
+//F44
+//F50
+//F51
+//F52
+//F53
+//F54
+		F509F4D40177994001CA2136 = {
+			children = (
+				F509F4D50177994001CA2136,
+				F490F11DC5B03DDB00A007D0,
+				F509F4D60177994001CA2136,
+			);
+			isa = PBXGroup;
+			name = Source;
+			refType = 4;
+		};
+		F509F4D50177994001CA2136 = {
+			children = (
+				F509F508017799E301CA2136,
+				F509F509017799E301CA2136,
+				F509F50A017799E301CA2136,
+			);
+			isa = PBXGroup;
+			path = SampleUSBMIDIDriver;
+			refType = 4;
+		};
+		F509F4D60177994001CA2136 = {
+			children = (
+				F509F4D70177994001CA2136,
+				F509F4D80177994001CA2136,
+				F509F4D90177994001CA2136,
+				F509F4DA0177994001CA2136,
+				F509F4DB0177994001CA2136,
+				F509F4DC0177994001CA2136,
+				F509F4DD0177994001CA2136,
+				F509F4DE0177994001CA2136,
+				F509F4DF0177994001CA2136,
+				F509F4E00177994001CA2136,
+				F509F4E10177994001CA2136,
+				F509F4E20177994001CA2136,
+				F509F4E30177994001CA2136,
+				F509F4E40177994001CA2136,
+				F509F4E50177994001CA2136,
+				F509F4E60177994001CA2136,
+				F509F4E70177994001CA2136,
+				F509F4E80177994001CA2136,
+				F509F4E90177994001CA2136,
+				F509F4EA0177994001CA2136,
+				F509F4EB0177994001CA2136,
+				F509F4EC0177994001CA2136,
+				F509F4ED0177994001CA2136,
+				F509F4EE0177994001CA2136,
+				F509F4EF0177994001CA2136,
+			);
+			isa = PBXGroup;
+			path = Shared;
+			refType = 4;
+		};
+		F509F4D70177994001CA2136 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			path = Architecture.txt;
+			refType = 4;
+		};
+		F509F4D80177994001CA2136 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			path = IOServiceClient.cpp;
+			refType = 4;
+		};
+		F509F4D90177994001CA2136 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			path = IOServiceClient.h;
+			refType = 4;
+		};
+		F509F4DA0177994001CA2136 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			path = MIDIBackCompatible.cpp;
+			refType = 4;
+		};
+		F509F4DB0177994001CA2136 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			path = MIDIBackCompatible.h;
+			refType = 4;
+		};
+		F509F4DC0177994001CA2136 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			path = MIDIDriver.cpp;
+			refType = 4;
+		};
+		F509F4DD0177994001CA2136 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			path = MIDIDriverClass.h;
+			refType = 4;
+		};
+		F509F4DE0177994001CA2136 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			path = MIDIDriverDevice.cpp;
+			refType = 4;
+		};
+		F509F4DF0177994001CA2136 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			path = MIDIDriverDevice.h;
+			refType = 4;
+		};
+		F509F4E00177994001CA2136 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			path = MIDIDriverUtils.cpp;
+			refType = 4;
+		};
+		F509F4E10177994001CA2136 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			path = MIDIDriverUtils.h;
+			refType = 4;
+		};
+		F509F4E20177994001CA2136 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			path = USBDevice.cpp;
+			refType = 4;
+		};
+		F509F4E30177994001CA2136 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			path = USBDevice.h;
+			refType = 4;
+		};
+		F509F4E40177994001CA2136 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			path = USBDeviceManager.cpp;
+			refType = 4;
+		};
+		F509F4E50177994001CA2136 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			path = USBDeviceManager.h;
+			refType = 4;
+		};
+		F509F4E60177994001CA2136 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			path = USBInterfaceManager.cpp;
+			refType = 4;
+		};
+		F509F4E70177994001CA2136 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			path = USBInterfaceManager.h;
+			refType = 4;
+		};
+		F509F4E80177994001CA2136 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			path = USBMIDIDevice.cpp;
+			refType = 4;
+		};
+		F509F4E90177994001CA2136 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			path = USBMIDIDevice.h;
+			refType = 4;
+		};
+		F509F4EA0177994001CA2136 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			path = USBMIDIDeviceManager.cpp;
+			refType = 4;
+		};
+		F509F4EB0177994001CA2136 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			path = USBMIDIDeviceManager.h;
+			refType = 4;
+		};
+		F509F4EC0177994001CA2136 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			path = USBMIDIDriverBase.cpp;
+			refType = 4;
+		};
+		F509F4ED0177994001CA2136 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			path = USBMIDIDriverBase.h;
+			refType = 4;
+		};
+		F509F4EE0177994001CA2136 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			path = USBVendorMIDIDriver.cpp;
+			refType = 4;
+		};
+		F509F4EF0177994001CA2136 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			path = USBVendorMIDIDriver.h;
+			refType = 4;
+		};
+		F509F4F00177994001CA2136 = {
+			fileRef = F509F4D90177994001CA2136;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		F509F4F20177994001CA2136 = {
+			fileRef = F509F4DD0177994001CA2136;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		F509F4F30177994001CA2136 = {
+			fileRef = F509F4DF0177994001CA2136;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		F509F4F40177994001CA2136 = {
+			fileRef = F509F4E10177994001CA2136;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		F509F4F50177994001CA2136 = {
+			fileRef = F509F4E30177994001CA2136;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		F509F4F60177994001CA2136 = {
+			fileRef = F509F4E50177994001CA2136;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		F509F4F70177994001CA2136 = {
+			fileRef = F509F4E70177994001CA2136;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		F509F4F80177994001CA2136 = {
+			fileRef = F509F4E90177994001CA2136;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		F509F4F90177994001CA2136 = {
+			fileRef = F509F4EB0177994001CA2136;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		F509F4FA0177994001CA2136 = {
+			fileRef = F509F4ED0177994001CA2136;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		F509F4FB0177994001CA2136 = {
+			fileRef = F509F4EF0177994001CA2136;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		F509F4FC0177994001CA2136 = {
+			fileRef = F509F4D80177994001CA2136;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		F509F4FE0177994001CA2136 = {
+			fileRef = F509F4DC0177994001CA2136;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		F509F4FF0177994001CA2136 = {
+			fileRef = F509F4DE0177994001CA2136;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		F509F5000177994001CA2136 = {
+			fileRef = F509F4E00177994001CA2136;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		F509F5010177994001CA2136 = {
+			fileRef = F509F4E20177994001CA2136;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		F509F5020177994001CA2136 = {
+			fileRef = F509F4E40177994001CA2136;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		F509F5030177994001CA2136 = {
+			fileRef = F509F4E60177994001CA2136;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		F509F5040177994001CA2136 = {
+			fileRef = F509F4E80177994001CA2136;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		F509F5050177994001CA2136 = {
+			fileRef = F509F4EA0177994001CA2136;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		F509F5060177994001CA2136 = {
+			fileRef = F509F4EC0177994001CA2136;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		F509F5070177994001CA2136 = {
+			fileRef = F509F4EE0177994001CA2136;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		F509F508017799E301CA2136 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			path = SampleUSBMIDI.exp;
+			refType = 4;
+		};
+		F509F509017799E301CA2136 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			path = SampleUSBMIDI.cpp;
+			refType = 4;
+		};
+		F509F50A017799E301CA2136 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			path = SampleUSBMIDI.h;
+			refType = 4;
+		};
+		F509F50B017799E301CA2136 = {
+			fileRef = F509F50A017799E301CA2136;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		F509F50C017799E301CA2136 = {
+			fileRef = F509F509017799E301CA2136;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		F538D96F01517C9A01CA2136 = {
+			isa = PBXBundleReference;
+			path = SampleUSBMIDIDriver.plugin;
+			refType = 3;
+		};
+		F538D97001517C9A01CA2136 = {
+			buildPhases = (
+				F538D97101517C9A01CA2136,
+				F538D97C01517C9A01CA2136,
+				F538D97D01517C9A01CA2136,
+				F538D98901517C9A01CA2136,
+				F538D98A01517C9A01CA2136,
+			);
+			buildSettings = {
+				CURRENT_PROJECT_VERSION = 2;
+				DEBUGGING_SYMBOLS = NO;
+				EXPORTED_SYMBOLS_FILE = SampleUSBMIDIDriver/SampleUSBMIDI.exp;
+				FRAMEWORK_SEARCH_PATHS = "";
+				INSTALL_PATH = "/Library/Audio/MIDI Drivers";
+				OPTIMIZATION_CFLAGS = "-O3";
+				OTHER_CFLAGS = "";
+				OTHER_LDFLAGS = "-lstdc++";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = SampleUSBMIDIDriver;
+				SECTORDER_FLAGS = "";
+				VERSIONING_SYSTEM = "apple-generic";
+				WARNING_CFLAGS = "-Wmost -Wno-four-char-constants -Wno-unknown-pragmas";
+				WRAPPER_EXTENSION = plugin;
+			};
+			dependencies = (
+			);
+			isa = PBXBundleTarget;
+			name = SampleUSBMIDIDriver;
+			productInstallPath = "/Library/Audio/MIDI Drivers";
+			productName = RolandUSBMIDI;
+			productReference = F538D96F01517C9A01CA2136;
+			productSettingsXML = "<?xml version=\"1.0\" encoding=\"UTF-8\"?>
+<!DOCTYPE plist PUBLIC \"-//Apple Computer//DTD PLIST 1.0//EN\" \"http://www.apple.com/DTDs/PropertyList-1.0.dtd\">
+<plist version=\"1.0\">
+<dict>
+	<key>CFBundleDevelopmentRegion</key>
+	<string>English</string>
+	<key>CFBundleExecutable</key>
+	<string>SampleUSBMIDIDriver</string>
+	<key>CFBundleGetInfoString</key>
+	<string></string>
+	<key>CFBundleIconFile</key>
+	<string></string>
+	<key>CFBundleIdentifier</key>
+	<string></string>
+	<key>CFBundleInfoDictionaryVersion</key>
+	<string>6.0</string>
+	<key>CFBundleName</key>
+	<string></string>
+	<key>CFBundlePackageType</key>
+	<string>BNDL</string>
+	<key>CFBundleShortVersionString</key>
+	<string></string>
+	<key>CFBundleSignature</key>
+	<string>????</string>
+	<key>CFBundleVersion</key>
+	<string>0.0.1d1</string>
+	<key>CFPlugInDynamicRegisterFunction</key>
+	<string></string>
+	<key>CFPlugInDynamicRegistration</key>
+	<string>NO</string>
+	<key>CFPlugInFactories</key>
+	<dict>
+		<key>46727133-BF59-11D5-927F-00039301A6E6</key>
+		<string>NewSampleUSBMIDIDriver</string>
+	</dict>
+	<key>CFPlugInTypes</key>
+	<dict>
+		<key>ECDE9574-0FE4-11D4-BB1A-0050E4CEA526</key>
+		<array>
+			<string>46727133-BF59-11D5-927F-00039301A6E6</string>
+		</array>
+	</dict>
+</dict>
+</plist>
+";
+		};
+		F538D97101517C9A01CA2136 = {
+			buildActionMask = 2147483647;
+			files = (
+				F509F4F00177994001CA2136,
+				F509F4F20177994001CA2136,
+				F509F4F30177994001CA2136,
+				F509F4F40177994001CA2136,
+				F509F4F50177994001CA2136,
+				F509F4F60177994001CA2136,
+				F509F4F70177994001CA2136,
+				F509F4F80177994001CA2136,
+				F509F4F90177994001CA2136,
+				F509F4FA0177994001CA2136,
+				F509F4FB0177994001CA2136,
+				F509F50B017799E301CA2136,
+				F490F213C5B03DDB00A007D0,
+				F490F217C5B03DDB00A007D0,
+			);
+			isa = PBXHeadersBuildPhase;
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F538D97C01517C9A01CA2136 = {
+			buildActionMask = 2147483647;
+			files = (
+			);
+			isa = PBXResourcesBuildPhase;
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F538D97D01517C9A01CA2136 = {
+			buildActionMask = 2147483647;
+			files = (
+				F509F4FC0177994001CA2136,
+				F509F4FE0177994001CA2136,
+				F509F4FF0177994001CA2136,
+				F509F5000177994001CA2136,
+				F509F5010177994001CA2136,
+				F509F5020177994001CA2136,
+				F509F5030177994001CA2136,
+				F509F5040177994001CA2136,
+				F509F5050177994001CA2136,
+				F509F5060177994001CA2136,
+				F509F5070177994001CA2136,
+				F509F50C017799E301CA2136,
+				F490F212C5B03DDB00A007D0,
+				F490F216C5B03DDB00A007D0,
+			);
+			isa = PBXSourcesBuildPhase;
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F538D98901517C9A01CA2136 = {
+			buildActionMask = 2147483647;
+			files = (
+				F538D98E01517DCD01CA2136,
+				F538D98F01517DCD01CA2136,
+				F538D99001517DCD01CA2136,
+			);
+			isa = PBXFrameworksBuildPhase;
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F538D98A01517C9A01CA2136 = {
+			buildActionMask = 2147483647;
+			files = (
+			);
+			isa = PBXRezBuildPhase;
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F538D98E01517DCD01CA2136 = {
+			fileRef = 0AA1909FFE8422F4C02AAC07;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		F538D98F01517DCD01CA2136 = {
+			fileRef = F5706D20014B0B17015B338A;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		F538D99001517DCD01CA2136 = {
+			fileRef = F5706D23014B0BC6015B338A;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		F55F18B701554564010C93F4 = {
+			isa = PBXFrameworkReference;
+			name = CoreMIDI.framework;
+			path = /System/Library/Frameworks/CoreMIDI.framework;
+			refType = 0;
+		};
+		F5706D20014B0B17015B338A = {
+			isa = PBXFrameworkReference;
+			name = CoreMIDIServer.framework;
+			path = /System/Library/Frameworks/CoreMIDIServer.framework;
+			refType = 0;
+		};
+		F5706D23014B0BC6015B338A = {
+			isa = PBXFrameworkReference;
+			name = IOKit.framework;
+			path = /System/Library/Frameworks/IOKit.framework;
+			refType = 0;
+		};
+	};
+	rootObject = 089C1669FE841209C02AAC07;
+}

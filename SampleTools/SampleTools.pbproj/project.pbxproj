@@ -1,0 +1,169 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 38;
+	objects = {
+		01A425D6FFDC57E57F000001 = {
+			buildStyles = (
+				01A425E2FFDC58A77F000001,
+				01A425E3FFDC58A77F000001,
+			);
+			isa = PBXProject;
+			mainGroup = 01A425D7FFDC57E57F000001;
+			productRefGroup = 01A425D8FFDC58047F000001;
+			projectDirPath = "";
+			targets = (
+				01A425DAFFDC58047F000001,
+			);
+		};
+		01A425D7FFDC57E57F000001 = {
+			children = (
+				01A425D8FFDC58047F000001,
+				01A425E0FFDC58A77F000001,
+				01A425E4FFDC58C57F000001,
+				F524FB05011A260A01CA20C6,
+			);
+			isa = PBXGroup;
+			refType = 4;
+		};
+		01A425D8FFDC58047F000001 = {
+			children = (
+				01A425D9FFDC58047F000001,
+			);
+			isa = PBXGroup;
+			name = Products;
+			refType = 4;
+		};
+		01A425D9FFDC58047F000001 = {
+			isa = PBXExecutableFileReference;
+			path = midiecho;
+			refType = 3;
+		};
+		01A425DAFFDC58047F000001 = {
+			buildPhases = (
+				01A425DBFFDC58047F000001,
+				01A425DCFFDC58047F000001,
+				01A425DDFFDC58047F000001,
+				01A425DEFFDC58047F000001,
+			);
+			buildSettings = {
+				OTHER_CFLAGS = "";
+				OTHER_LDFLAGS = "";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = midiecho;
+				REZ_EXECUTABLE = YES;
+				SECTORDER_FLAGS = "";
+				WARNING_CFLAGS = "-Wmost -Wno-four-char-constants -Wno-unknown-pragmas";
+			};
+			dependencies = (
+			);
+			isa = PBXToolTarget;
+			name = midiecho;
+			productInstallPath = /usr/local/bin;
+			productName = echo;
+			productReference = 01A425D9FFDC58047F000001;
+			shouldUseHeadermap = 0;
+		};
+		01A425DBFFDC58047F000001 = {
+			buildActionMask = 2147483647;
+			files = (
+			);
+			isa = PBXHeadersBuildPhase;
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		01A425DCFFDC58047F000001 = {
+			buildActionMask = 2147483647;
+			files = (
+				01A425E1FFDC58A77F000001,
+			);
+			isa = PBXSourcesBuildPhase;
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		01A425DDFFDC58047F000001 = {
+			buildActionMask = 2147483647;
+			files = (
+				01A425E5FFDC58C57F000001,
+				F524FB06011A260A01CA20C6,
+			);
+			isa = PBXFrameworksBuildPhase;
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		01A425DEFFDC58047F000001 = {
+			buildActionMask = 2147483647;
+			files = (
+			);
+			isa = PBXRezBuildPhase;
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		01A425E0FFDC58A77F000001 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			path = Echo.cpp;
+			refType = 4;
+		};
+		01A425E1FFDC58A77F000001 = {
+			fileRef = 01A425E0FFDC58A77F000001;
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+				);
+			};
+		};
+		01A425E2FFDC58A77F000001 = {
+			buildRules = (
+			);
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+				OPTIMIZATION_CFLAGS = "-O0";
+			};
+			isa = PBXBuildStyle;
+			name = Development;
+		};
+		01A425E3FFDC58A77F000001 = {
+			buildRules = (
+			);
+			buildSettings = {
+				COPY_PHASE_STRIP = YES;
+			};
+			isa = PBXBuildStyle;
+			name = Deployment;
+		};
+		01A425E4FFDC58C57F000001 = {
+			isa = PBXFrameworkReference;
+			name = CoreMIDI.framework;
+			path = /System/Library/Frameworks/CoreMIDI.framework;
+			refType = 0;
+		};
+		01A425E5FFDC58C57F000001 = {
+			fileRef = 01A425E4FFDC58C57F000001;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+//010
+//011
+//012
+//013
+//014
+//F50
+//F51
+//F52
+//F53
+//F54
+		F524FB05011A260A01CA20C6 = {
+			isa = PBXFrameworkReference;
+			name = CoreServices.framework;
+			path = /System/Library/Frameworks/CoreServices.framework;
+			refType = 0;
+		};
+		F524FB06011A260A01CA20C6 = {
+			fileRef = F524FB05011A260A01CA20C6;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+	};
+	rootObject = 01A425D6FFDC57E57F000001;
+}
