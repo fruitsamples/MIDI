@@ -25,31 +25,6 @@
 		};
 /* End PBXBuildFile section */
 
-/* Begin PBXBuildStyle section */
-		01A425E2FFDC58A77F000001 = {
-			isa = PBXBuildStyle;
-			buildSettings = {
-				COPY_PHASE_STRIP = NO;
-				GCC_DYNAMIC_NO_PIC = NO;
-				GCC_ENABLE_FIX_AND_CONTINUE = YES;
-				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				OPTIMIZATION_CFLAGS = "-O0";
-				ZERO_LINK = NO;
-			};
-			name = Development;
-		};
-		01A425E3FFDC58A77F000001 = {
-			isa = PBXBuildStyle;
-			buildSettings = {
-				COPY_PHASE_STRIP = YES;
-				GCC_ENABLE_FIX_AND_CONTINUE = NO;
-				ZERO_LINK = NO;
-			};
-			name = Deployment;
-		};
-/* End PBXBuildStyle section */
-
 /* Begin PBXFileReference section */
 		01A425E0FFDC58A77F000001 = {
 			isa = PBXFileReference;
@@ -67,8 +42,8 @@
 		};
 		3EB3AB19079D50E00046E3F3 = {
 			isa = PBXFileReference;
-			explicitFileType = "compiled.mach-o.executable";
 			includeInIndex = 0;
+			lastKnownFileType = "compiled.mach-o.executable";
 			path = midiecho;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
@@ -136,19 +111,6 @@
 			);
 			buildRules = (
 			);
-			buildSettings = {
-				OTHER_CFLAGS = "";
-				OTHER_LDFLAGS = "";
-				OTHER_REZFLAGS = "";
-				PRODUCT_NAME = midiecho;
-				REZ_EXECUTABLE = YES;
-				SECTORDER_FLAGS = "";
-				WARNING_CFLAGS = (
-					"-Wmost",
-					"-Wno-four-char-constants",
-					"-Wno-unknown-pragmas",
-				);
-			};
 			dependencies = (
 			);
 			name = midiecho;
@@ -163,12 +125,6 @@
 		01A425D6FFDC57E57F000001 = {
 			isa = PBXProject;
 			buildConfigurationList = 3E62BF3C08984621002F3F10;
-			buildSettings = {
-			};
-			buildStyles = (
-				01A425E2FFDC58A77F000001,
-				01A425E3FFDC58A77F000001,
-			);
 			hasScannedForEncodings = 0;
 			mainGroup = 01A425D7FFDC57E57F000001;
 			productRefGroup = 01A425D8FFDC58047F000001;
@@ -248,12 +204,14 @@
 		3E62BF3D08984621002F3F10 = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				SDKROOT = /Developer/SDKs/MacOSX10.4u.sdk;
 			};
 			name = Development;
 		};
 		3E62BF3E08984621002F3F10 = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				SDKROOT = /Developer/SDKs/MacOSX10.4u.sdk;
 			};
 			name = Deployment;
 		};
